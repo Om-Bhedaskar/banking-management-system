@@ -1,0 +1,8 @@
+package com.customException;
+
+public class TransactionNotFoundException extends Exception {
+
+	public TransactionNotFoundException(String message) {
+		super(message);
+	}
+}
